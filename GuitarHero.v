@@ -91,7 +91,7 @@ module main(clock_50, data, clock, LEDoutput);
         );
 
 		  
-	 mux3 muxxx(
+	 mux3to1 muxxx(
 		.select(data[11:10]),
 		.d(results[2:0]),
 		.q(results[3])
@@ -187,7 +187,7 @@ module function_3(a, result);
 
 endmodule
 
-module mux3(select, d, q );
+module mux3to1(select, d, q );
 
 	input[1:0] select;
 	input[3:0] d;
