@@ -1,0 +1,2 @@
+# GuitarHero
+Guitar Hero is a rhythm based game first published in 2005, developed by RedOctane and Harmonix. The purpose of the game is for the player to attempt to recreate a song by pressing the buttons on the controller as prompted by the screen when the prompts pass through a part of the screen. The player is given points based on how precise they are when they press the buttons and also have multipliers that increase based on the more precise prompts they get in a row. We wish to recreate this game on the DE2 boards. 
